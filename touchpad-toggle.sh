@@ -1,3 +1,2 @@
 #!/bin/bash
-
-synclient TouchpadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0')
+/usr/bin/synclient TouchPadOff=$(synclient -l | grep -c 'TouchpadOff.*=.*0')
